@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LB Supermarket</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>LB Supermarket</h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#about">Nosotros</a></li>
+                    <li><a href="#products">Productos</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+                <div class="menu-toggle" id="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Todo lo que necesitas en un solo lugar</h2>
+            <p>Productos frescos y de calidad, directamente en tu tienda favorita</p>
+            <a href="#products" class="btn">Explorar Productos</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Sobre Nosotros</h2>
+            <div class="about-content">
+                <p>En LB Supermarket, nos esforzamos por ofrecer productos de alta calidad a precios accesibles. Contamos con un amplio catálogo que cubre todas tus necesidades diarias, desde alimentos hasta artículos para el hogar.</p>
+                <img src="https://via.placeholder.com/400x300" alt="Supermarket Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Nuestros Productos</h2>
+            <br>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="https://via.placeholder.com/300x200" alt="Producto 1">
+                    <h3>Producto 1</h3>
+                    <p>$10.00</p>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/300x200" alt="Producto 2">
+                    <h3>Producto 2</h3>
+                    <p>$20.00</p>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/300x200" alt="Producto 3">
+                    <h3>Producto 3</h3>
+                    <p>$30.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contáctanos</h2>
+            <p>¿Tienes alguna pregunta o comentario? Estamos aquí para ayudarte.</p>
+            <br>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name" placeholder="Tu nombre completo" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Tu mensaje" required></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 LB Supermarket. Todos los derechos reservados.</p>
+            <br>
+            <div class="socials">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
